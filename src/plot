@@ -1,0 +1,16 @@
+set term postscript enhanced monochrome
+set grid
+
+set terminal x11
+set output
+
+set xlabel "t [s]"
+set ylabel "V_{m} [V]"
+
+plot [0:0.5] "output-sim_1_1.vm" u 1:2 w l t "Cell A V_{m}", \
+              "output-sim_1_2.vm" u 1:2 w l t "Cell B V_{m}"
+
+pause mouse keypress
+
+plot [0:0.5] "output-sim_2_1.vm" u 1:2 w l t "Cell C V_{m}", \
+              "output-sim_2_2.vm" u 1:2 w l t "Cell D V_{m}"
