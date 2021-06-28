@@ -11,7 +11,7 @@ Install GnuPlot:
 
 ## The model
 <img src="/doc/model.png" width="500">
-<img src="/doc/stimuli.png" width="300">
+<img src="/doc/stimuli.png" width="250">
 
 ## Run simulation
 `nxgensis visual-net.g`
