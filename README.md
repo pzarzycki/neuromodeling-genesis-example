@@ -10,9 +10,8 @@ Install GnuPlot:
 `sudo apt-get install gnuplot mc emacs`
 
 ## The model
-![Model](/doc/model.png)
-![Stimuli](/doc/stimuli.png)
-
+<img src="/doc/model.png" width="200">
+<img src="/doc/stimuli.png" width="200">
 
 ## Run simulation
 `nxgensis visual-net.g`
