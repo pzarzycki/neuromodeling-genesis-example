@@ -1,8 +1,8 @@
-## neuromodeling-genesis-example
+# Neurosimulations with GENESIS - a simple visual cortex model
 An example of simple visual cortex model in GENESIS 2.4
 
 ## Prerequisites
-Install GENESIS 2.4 from: `https://github.com/genesis-sim/genesis-2.4`
+Install GENESIS 2.4 from: https://github.com/genesis-sim/genesis-2.4
 
 You can install no XODUS version (without graphical UI) - **nxgenesis**.
 
